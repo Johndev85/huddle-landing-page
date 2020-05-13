@@ -1,2 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* variables css */
+:root {
+    --violet-color: hsl(257, 40%, 49%);
+    --violet-hover: #ab0bc9;
+}
+
+/* --------------CSS-------------- */
+
+html,body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1440px;
+    background-image: url(./images/bg-desktop.svg);
+    background-size: 95%;
+    background-color: var(--violet-color);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header {
+    margin: 40px 15px 15px 15px;
+}
+
+header img {
+    width: 180px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.hero {
+    width: 600px;
+}
+
+.hero img {
+    width: 550px;
+    margin: 15px;
+}
+
+.build {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+button {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 450;
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 5px black;
+}
+
+button:hover {
+    background-color: var(---hover);
+    color: white;
+    box-shadow: 5px 5px 8px var(--violet-hover);
+
+}
+
+.social {
+    margin-top: 120px;
+    margin-right: 0px;
+    margin-left: 250px;
+    cursor: pointer;
+
+}
